@@ -1,0 +1,169 @@
+/* From google apis, import roboto type font */
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+            /* Background color: at-2 */
+            body {
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                color: #333;
+                background: #fff;
+                margin: 0 0;
+                padding: 0 0;
+            }
+
+            img {
+                max-width: 100%;
+            }
+
+            h1, h2 {
+                margin-bottom: 15px;
+            }
+
+            /***   Navbar   ***/
+            .navbar_carbon {
+              background: #f2935c;
+              color: #fff;
+              height: 60px;
+            }
+
+            .navbar_carbon .container {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              height: 100%;
+            }
+
+            .navbar_carbon .logo {
+              font-size: x-large;
+              font-weight: bold;
+            }
+
+            .navbar_carbon .logo a {
+              color: #fff;
+              font-size: x-large;
+              font-weight: bold;
+            }
+
+            .navbar_carbon .logo a:hover {
+              color: lightblue;
+            }
+
+            .navbar_carbon a {
+              color: #fff;
+              text-decoration: none;
+              font-size: 18px;
+              font-weight: bold;
+            }
+
+            .navbar_carbon a:hover {
+              color: lightblue;
+            }
+
+            ul {
+                list-style-type: none;
+            }
+
+            .navbar_carbon ul {
+              display: flex;
+            }
+
+            .navbar_carbon ul li {
+              margin-left: 20px;
+            }
+
+            /***   Header   ***/
+            .header_carbon {
+                background: #343a40;
+                color: #fff;
+                min-height: 400px;
+                margin: 0px 0px;
+                padding: 20px 20px;
+            }
+
+            .header h1 {
+                font-size: 3rem;
+                font-weight: bold;
+                line-height: 1.2;
+            }
+
+            .header_carbon img {
+                max-width: 400px;
+            }
+
+            .header_carbon .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            /*Container buttons section header*/
+            .container_buttons_links_header_carbon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap:wrap;
+            }
+
+            .container_buttons_links_header_carbon a:hover {
+                color: #343a40;
+            }
+
+            /***   Developer   ***/
+            .developer {
+              display: flex;
+              align-items: start;
+              justify-content: space-between;
+            }
+
+            .developer .box {
+              flex: 1;
+              background: #f2e3b6;
+              color: #343a40;
+              border-radius: 10px;
+              margin: 20px 10px;
+              padding: 15px 20px;
+              text-align:center;
+            }
+
+            .developer .box:nth-of-type(1) {
+              flex-grow:1;
+              background: #fff;
+              color: #fff;
+              border-radius: 10px;
+              margin: 0px 0px;
+              padding: 0px 0px;
+              text-align:left;
+            }
+
+            .developer .box:nth-of-type(2) {
+              flex-grow:4;
+              background: #f2e3b6;
+              color: #343a40;
+              border-radius: 10px;
+              margin: 20px 10px;
+              padding: 15px 20px;
+              text-align:center;
+            }
+
+            .developer .box:nth-of-type(3) {
+              flex-grow:1;
+              background: #fff;
+              color: #fff;
+              border-radius: 10px;
+              margin: 0px 0px;
+              padding: 0px 0px;
+              text-align:left;
+            }
+
+            /*Container buttons developers*/
+            .container_buttons_developer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap:wrap;
+            }
+            .container_buttons_developer a:hover {
+                color: #f2e3b6;
+            }
+
+
